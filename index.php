@@ -1,33 +1,8 @@
 
 <html>
-<!--<head>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Marie-Louise Bourreau - Portfolio</title>
-    <style>
-        body {
-            background-image: url("images/background1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-    </style>
-</head>
-<body>
-
-<nav class="flex flex-wrap items-center justify-between p-4">
-    <div class="navbar-menu ">
-        <a class="block inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="/">
-            Accueil
-        </a>
-        <a class="block inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="/realisations.html">
-            Mes réalisations
-        </a>
-        <a class="block inline-block mt-4 lg:mt-0 text-blue-900 hover:text-indigo-600" href="/contact.html">
-            Contact
-        </a>
-    </div>
-</nav>-->
-
+<?php
+require_once "header.php";
+?>
 
 <img alt="profil" src="https://images.unsplash.com/photo-1474978528675-4a50a4508dc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="mx-auto object-cover rounded-full h-96 w-96 "/>
 <h1 class="font-sans text-center mt-3 text-6xl">Marie-Louise Bourreau</h1>
@@ -77,6 +52,9 @@
         </p>
     </div></div>
 
-<!--<h4 class="text-center text-sm my-20">© Marie-Louise Bourreau - 2021</h4>-->
+<?php
+require_once "footer.php";
+?>
+
 </body>
 </html>

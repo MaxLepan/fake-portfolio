@@ -1,7 +1,5 @@
 <?php
-require_once "index.html";
-require_once "contact.html";
-require_once "realisations.html";
+
 ?>
 
 <head>
@@ -10,7 +8,7 @@ require_once "realisations.html";
     <title>Marie-Louise Bourreau - Portfolio</title>
     <style>
         body {
-            background-image: url("images/background1.jpg");
+            background-image: url("images/background<?php echo rand(1, 2)?>.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
@@ -24,10 +22,10 @@ require_once "realisations.html";
         <a class="block inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./">
             Accueil
         </a>
-        <a class="block inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./realisations.html">
+        <a class="block inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./realisations.php">
             Mes réalisations
         </a>
-        <a class="block inline-block mt-4 lg:mt-0 text-blue-900 hover:text-indigo-600" href="./contact.html">
+        <a class="block inline-block mt-4 lg:mt-0 text-blue-900 hover:text-indigo-600" href="./contact.php">
             Contact
         </a>
     </div>
