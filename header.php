@@ -5,7 +5,7 @@ include "data.php";
 <head>
     <meta charset=UTF-8/>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Marie-Louise Bourreau - Portfolio</title>
+    <title><?= $user["name"] ?> - Portfolio</title>
     <style>
         body {
             background-image: url("images/background<?php echo rand(1, 2)?>.jpg");
