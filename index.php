@@ -22,8 +22,10 @@ require_once "header.php";
         <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
             <?= $formation["description"] ?>
         </p>
-    </div></div>
+    </div>
     <?php } ?>
+</div>
+
 
 <h1 class="font-sans text-left mt-60 mb-5 ml-6 text-4xl text-center">Passions</h1>
 
